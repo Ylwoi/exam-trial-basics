@@ -32,4 +32,6 @@ The application is accepted if:
 ## 5. Question time! (~15 mins) [2p]
 
 ### How can you generate a random number? [2p]
-#### Your answer: [add your answer here]
+#### Your answer: [We have to import the random module first. If we want to create an integer variable
+randomly between 1 and 10 then we he have to type:
+number = random.randrange(1, 10)]
