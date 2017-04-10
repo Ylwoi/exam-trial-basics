@@ -8,7 +8,7 @@ def count_as(filename):
         text = my_file.read()
         count = 0
         for char in text:
-            if char == 'a':
+            if char == 'a' or char == 'A':
                 count += 1
         return count
     except FileNotFoundError:
