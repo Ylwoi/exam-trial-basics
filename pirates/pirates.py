@@ -10,3 +10,12 @@ pirates = [
 # And returns a list of names containing the pirates that
 # - have wooden leg and
 # - have more than 15 gold
+
+def pirate_lister(pirate_data):
+    name_list = []
+    for pirate in pirate_data:
+        if pirate['has_wooden_leg'] == True and pirate['gold'] > 15:
+            name_list.append(pirate['Name'])
+    return name_list
+
+print(pirate_lister(pirates))
